@@ -1,10 +1,12 @@
 import React from "react";
 import Todo from "../component/Todo";
+import PropTypes from "prop-types";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 export function Home() {
+	// const taskList = props.tasks.map(task => task.name);
 	return (
 		<div className="todoapp stack-large">
 			<h1>TodoMatic</h1>
